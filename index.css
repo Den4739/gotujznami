@@ -1,0 +1,29 @@
+
+body{
+    background-color: #ffffff;
+    flex-wrap: wrap;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Maksymalna szerokość kontenera */
+    margin: 0 auto;
+}
+.text-overlay {
+    position: absolute;
+    bottom: -20;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Przezroczyste tło tekstu */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.tytuł,.opis{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    padding-top: 50px;
+    padding-left: 25px;;
+    height: 150px
+}
